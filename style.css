@@ -1,0 +1,94 @@
+body{
+    background:  #FADCEB;
+}
+header{
+    background: #fa50a5; 
+    padding: 10px;
+}
+.header-caixa{
+    position: relative;
+    background: #fa50a5; 
+    width: 90%;
+    margin: 0 auto;
+}
+.logo-branca-gi-artes{
+    width: 140px;
+    margin: 20px;
+}
+.lista-navegacao{
+    position: absolute;
+    right: 613px;
+    bottom: 0;
+}
+.lista-navegacao-itens{
+    display: inline-block;
+    padding-left: 40px;
+}
+.navegacao-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FADCEB;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.caixa-pesquisa{
+    position: relative;
+
+}
+.pesquisa{
+    border: none;
+    border-radius: 2em 0 0 2em;
+    width: 30em;
+    height: 1.8em;
+    background: #FADCEB;
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+}
+.imagem-lupa{
+    background: #FADCEB;
+    width: 15px;
+    padding: 5.5px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 2em 2em 0;
+    right: 0;
+}
+.imagem-decoracao{
+    display: block;
+    margin: 2em auto;
+}
+.conteudo-principal{
+    width: 45%;
+    margin: 30px auto;
+}
+.conteudo-principal p{
+    font-size: 2em;
+    color: #fa50a5; 
+    margin: 1em auto;
+}
+footer{
+    width: 100%;
+    border-top: 3px dotted;
+    background: #FADCEB;
+    color: #fa50a5; 
+}
+.footer-caixa{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-conteudo, .redes-sociais{
+    display: inline-block;
+    padding: 20px 0 20px 20px;
+    
+}
+.imagem-redes{
+    width: 80%;
+}
+.logo-branca-gi-artes:hover, .imagem-redes:hover, .navegacao-link:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
