@@ -4,6 +4,7 @@ body{
 header{
     background: #fa50a5; 
     padding: 10px;
+    
 }
 .header-caixa{
     position: relative;
@@ -12,10 +13,11 @@ header{
     margin: 0 auto;
 }
 .logo-branca-gi-artes{
-    width: 140px;
+    width: 8em;
     margin: 20px;
+    
 }
-.lista-navegacao{
+.navegacao-lista{
     position: absolute;
     left: 16%;
     bottom: 66px;
@@ -26,10 +28,8 @@ header{
 }
 .navegacao-link{
     text-decoration: none;
-    /* text-transform: uppercase; */
     color: #FADCEB;
-    font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-family: 'Courgette', cursive;
 }
 .caixa-pesquisa{
@@ -64,13 +64,14 @@ header{
 }
 .conteudo-principal{
     width: 70%;
-    margin: 3em auto 10em;
+    margin: 3em auto 20em;
     font-family: 'Courgette', cursive;
 }
 .conteudo-principal p{
     font-size: 1.5em;
     color: #fa50a5; 
     margin: 1em auto;
+    text-align: center;
 }
 footer{
     width: 100%;
