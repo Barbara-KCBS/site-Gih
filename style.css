@@ -17,8 +17,8 @@ header{
 }
 .lista-navegacao{
     position: absolute;
-    right: 613px;
-    bottom: 0;
+    left: 16%;
+    bottom: 66px;
 }
 .navegacao-itens{
     display: inline-block;
@@ -26,16 +26,17 @@ header{
 }
 .navegacao-link{
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #FADCEB;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.8em;
+    font-family: 'Courgette', cursive;
 }
 .caixa-pesquisa{
     position: relative;
 
 }
-.pesquisa{
+.input-pesquisa{
     border: none;
     border-radius: 2em 0 0 2em;
     width: 30em;
@@ -44,6 +45,8 @@ header{
     position: absolute;
     right: 25px;
     bottom: 0;
+    outline: none;
+    padding-left: 20px;
 }
 .imagem-lupa{
     background: #FADCEB;
@@ -55,15 +58,17 @@ header{
     right: 0;
 }
 .imagem-decoracao{
+    width: 8em;
     display: block;
-    margin: 2em auto;
+    margin: 0 auto 2em ;
 }
 .conteudo-principal{
-    width: 45%;
-    margin: 30px auto;
+    width: 70%;
+    margin: 3em auto 10em;
+    font-family: 'Courgette', cursive;
 }
 .conteudo-principal p{
-    font-size: 2em;
+    font-size: 1.5em;
     color: #fa50a5; 
     margin: 1em auto;
 }
