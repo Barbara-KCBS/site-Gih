@@ -21,16 +21,18 @@ header{
     position: absolute;
     left: 16%;
     bottom: 66px;
+    padding-left: 20px;
 }
 .navegacao-itens{
     display: inline-block;
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
 .navegacao-link{
     text-decoration: none;
     color: #FADCEB;
     font-size: 1.6em;
     font-family: 'Courgette', cursive;
+    padding: 10px;
 }
 .caixa-pesquisa{
     position: relative;
@@ -94,7 +96,22 @@ footer{
 .imagem-redes{
     width: 80%;
 }
-.logo-branca-gi-artes:hover, .imagem-redes:hover, .navegacao-link:hover{
+.logo-branca-gi-artes:hover, .imagem-redes:hover{
     opacity: 0.5;
     transition: 1s;
+}
+.navegacao-link:hover{
+    opacity: 0.8;
+    transition: 1s;
+    border: 3px dotted #FADCEB;
+    border-radius: 0.2em;
+    background: #f33493;
+}
+/* produtos */
+.imagem-produtos{
+    width: 25%;
+    padding: 29px;
+}
+.lista-produtos{
+    display: inline;
 }
