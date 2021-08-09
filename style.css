@@ -139,8 +139,8 @@ footer{
 }
 
 .item-produto{
-    width: 250px;
-    height: 400px;
+    width: 25%;
+    height: 375px;
     margin: 0.5em;
     display: inline-block;
     border: 2px solid #f585bd;
