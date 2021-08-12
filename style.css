@@ -1,28 +1,33 @@
 body{
     background:  #FADCEB;
 }
+
 header{
     background: #fa50a5; 
     padding: 10px;
     
 }
+
 .header-caixa{
     position: relative;
     background: #fa50a5; 
     width: 90%;
     margin: 0 auto;
 }
+
 .logo-branca-gi-artes{
     width: 8em;
     margin: 20px;
     
 }
+
 .navegacao-lista{
     position: absolute;
     left: 16%;
     bottom: 66px;
     padding-left: 20px;
 }
+
 .navegacao-itens{
     display: inline-block;
     /* padding-left: 40px; */
@@ -34,14 +39,16 @@ header{
     font-family: 'Courgette', cursive;
     padding: 10px;
 }
+
 .caixa-pesquisa{
     position: relative;
 
 }
+
 .input-pesquisa{
     border: none;
     border-radius: 2em 0 0 2em;
-    width: 30em;
+    width: 25em;
     height: 1.8em;
     background: #FADCEB;
     position: absolute;
@@ -50,6 +57,7 @@ header{
     outline: none;
     padding-left: 20px;
 }
+
 .imagem-lupa{
     background: #FADCEB;
     width: 15px;
@@ -59,18 +67,22 @@ header{
     border-radius: 0 2em 2em 0;
     right: 0;
 }
-.imagem-decoracao{
-    width: 7em;
-}
-.item-imagem{
+
+.imagem-apresentacao-home{
     text-align: center;
 }
+
+.imagem-decoracao-home{
+    width: 7em;
+}
+
 .conteudo-principal{
     width: 75%;
     margin: 2em auto;
     font-family: 'Courgette', cursive;
 }
-.lista{
+
+.lista-apresentacao-home{
     width: 350px;
     padding: 1em;
     border: 1px solid #fa50a5;
@@ -78,29 +90,34 @@ header{
     margin: 1em auto;
     background-color: #f1eaee;
 }
-.item{ 
+
+.item-apresentacao-home{ 
     font-size: 1.3em;
     color: #fa50a5; 
     text-align: left;
     padding: 1em;
 }
+
 .material-icons{
     vertical-align: middle;
     padding-right: 0.2em;
    
 }
+
 .conteudo-principal p{
     font-size: 1.5em;
     color: #fa50a5; 
     margin: 1em auto;
     text-align: center;
 }
+
 footer{
     width: 100%;
     border-top: 3px dotted;
     background: #FADCEB;
     color: #fa50a5; 
 }
+
 .footer-caixa{
     width: 80%;
     margin: 0 auto;
@@ -108,18 +125,22 @@ footer{
     justify-content: space-between;
 
 }
+
 .footer-conteudo, .redes-sociais{
     display: inline-block;
     padding: 20px 0 20px 20px;
     
 }
+
 .imagem-redes{
     width: 80%;
 }
+
 .logo-branca-gi-artes:hover, .imagem-redes:hover{
     opacity: 0.5;
     transition: 1s;
 }
+
 .navegacao-link:hover{
     opacity: 0.8;
     transition: 1s;
@@ -127,6 +148,7 @@ footer{
     border-radius: 0.2em;
     background: #f33493;
 }
+
 /* produtos */
 .titulo-produtos{
     text-align: center;
@@ -134,13 +156,14 @@ footer{
     color: #f33493;
     padding: 1em;
 }
+
 .lista-de-produtos{
     text-align: center;
 }
 
 .item-produto{
     width: 25%;
-    height: 375px;
+    height: 350px;
     margin: 0.5em;
     display: inline-block;
     border: 2px solid #f585bd;
@@ -150,27 +173,37 @@ footer{
     text-align: center;
     vertical-align: top;
     color: #f33493;
-    font-size: 1em;
 }
+
 .item-produto:hover{
     box-shadow: 5px 5px 30px -15px #f33493;
     transition: 0.8s;
 }
+
 .imagem-produto{
     width: 90%;
     margin: 0.5em;  
     border: 1px solid rgb(138, 135, 135);
     border-radius: 0.2em;
 }
+
+#texto-produto {
+  border-top: 1px solid;
+  padding-top: 1em;
+  font-size: 1em;
+}
+
 .nav-produtos{
     text-align: center;
     margin: 4em;
 }
+
 .link-produtos{
     text-decoration: none;
     font-size: 1.5em;
     color: #f33493;
 }
+
 .link-produtos:hover{
     text-decoration: underline;
 }
