@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gih Artes</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="header-caixa">
+            <h1><a href="index.html"><img class="logo-branca-gi-artes" src="imagens/img_logos_decoracoes/logo-gi-branca.svg" alt="Logo Gih Artes"></a></h1>
+
+            <nav>
+                <ul class="navegacao-lista">
+
+                    <li class="navegacao-itens">
+                        <a class="navegacao-link" href="./produtos.html">Produtos</a>
+                    </li>
+                    <li class="navegacao-itens">
+                        <a class="navegacao-link" href="./aluguel.html">Aluguel</a>
+                    </li>
+                    <li class="navegacao-itens">
+                        <a class="navegacao-link"  href="./contato.html">Contato</a>
+                    </li>
+
+                </ul>
+
+                <!-- <div class="caixa-pesquisa">
+                    <input class="input-pesquisa" type="text" placeholder="O que você procura?">
+                    <img class="imagem-lupa" src="lupa.svg" alt="Pesquisa">
+                </div> -->
+
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteudo-principal">
+        <form> 
+            <label for="nomeesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomeesobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+            
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="30" rows="10" class="input-padrao"></textarea required>
+
+            <fieldset>
+                <legend>Como você prefere nosso contato?</legend>
+                <label ><input type="radio" name="contato" value="email" >Email</label>
+                <label ><input type="radio" name="contato" value="telefone" >Telefone</label>
+                <label><input type="radio" name="contato" value="whatsapp" checked> WhatsApp</label>   
+            </fieldset>
+            
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por Email?</label>
+            
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Segunda-feira</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta-feira</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta-feira</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+            </tbody> 
+        </table>
+    </main>
+
+<footer>
+    <div class="footer-caixa">
+
+        <ul class="footer-conteudo">
+            <li>Produtos em acrílico</li>
+            <li>Artesanato com recicláveis</li>
+            <li>Aluguel de ornamentos</li>
+            <li>Lembrancinhas personalizadas</li>
+        </ul>
+        <ul class="footer-conteudo">
+            <li>Artes em biscuit</li>
+            <li>Brindes personalizados</li>
+            <li>Produtos em MDF</li>
+            <li>Mimos em geral</li>
+            
+        </ul>
+        <ul class="footer-conteudo">
+            <li class="redes-sociais">
+                <a href="https://pt-br.facebook.com/gih.castelo.7" target="_blank">
+                    <img class="imagem-redes" src="imagens/img_redes_sociais/face.svg" alt="facebook">
+                </a>
+            </li>
+            <li class="redes-sociais">
+                <a href="https://www.instagram.com/gihcastelo/" target="_blank">
+                    <img class="imagem-redes" src="imagens/img_redes_sociais/instagram.svg" alt="Instagram">
+                </a>
+            </li>
+            <li class="redes-sociais">
+                <a href="https://api.whatsapp.com/send?phone=5585982144486&text=Vamos%20l%C3%A1" target="_blank">
+                    <img class="imagem-redes" src="imagens/img_redes_sociais/wpp.svg" alt="Whatsapp">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+   <p style="text-align: center; padding: 10px 0 20px 0;">&copy;Copyright Gih Artes</p> 
+
+</footer>
+</body>
+
+</html>
