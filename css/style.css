@@ -3,37 +3,42 @@ body{
 }
 
 header{
-    background: #fa50a5; 
-    padding: 10px;
-    
+    top: 0;
+    background-color: #fa50a5;
+    width: 100%; 
+    height: 150px;
+    margin-bottom: 5em;
 }
 
 /*cabeçalho padrão das páginas*/
 .header-caixa{
-    position: relative;
-    background: #fa50a5; 
-    width: 75%;
+    position: absolute;
+    background: #fa50a5;
+    width: 70%; 
+    height: 140px;
+    right: 0;
+    left: 0;
     margin: 0 auto;
+    display:table;
 }
-
-.logo-branca-gi-artes{
-    width: 8em;
-    margin: 20px;
+.titulo-logo-gih{
+    vertical-align:middle;
+    display:table-cell;  
     
 }
 
+.logo-branca-gi-artes{
+    width: 7em;
+    margin: 0 20px; 
+}
+
 .navegacao-lista{
-    position: absolute;
+    position: absolute; 
+    top: 40%;
     right: 0;
-    bottom: 66px;
     padding-left: 20px;
 }
-
-.navegacao-itens{
-    display: inline-block;
-    /* padding-left: 40px; */
-}
-
+    
 .navegacao-link{
     text-decoration: none;
     color: rgb(250, 220, 235);
@@ -49,39 +54,13 @@ header{
     border-radius: 0.2em;
 }
 
-/* .caixa-pesquisa{
-    position: relative;
-
-}
-
-.input-pesquisa{
-    border: none;
-    border-radius: 2em 0 0 2em;
-    width: 25em;
-    height: 1.8em;
-    background: #FADCEB;
-    position: absolute;
-    right: 25px;
-    bottom: 0;
-    outline: none;
-    padding-left: 20px;
-}
-
-.imagem-lupa{
-    background: #FADCEB;
-    width: 15px;
-    padding: 5.5px;
-    position: absolute;
-    bottom: 0;
-    border-radius: 0 2em 2em 0;
-    right: 0;
-} */
-
 /* Estilo padrão do conteúdo principal, dimensões e fonte*/
 
 .conteudo-principal{
-    width: 75%;
-    margin: 2em auto;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     font-family: 'Courgette', cursive;
 }
 
@@ -159,7 +138,7 @@ footer{
 /* Página de produtos */
 .titulo-produtos{
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #f33493;
     padding: 1em;
 }
@@ -169,8 +148,8 @@ footer{
 }
 
 .item-produto{
-    width: 25%;
-    height: 350px;
+    width: 16em;
+    height: 25em;
     margin: 0.5em;
     display: inline-block;
     border: 2px solid #f585bd;
@@ -188,7 +167,7 @@ footer{
 }
 
 .imagem-produto{
-    width: 90%;
+    width: 15em;
     margin: 0.5em;  
     border: 1px solid rgb(138, 135, 135);
     border-radius: 0.2em;
@@ -219,7 +198,7 @@ footer{
 
 .titulo-aluguel {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #f33493;
     padding-top: 1em;
 }
